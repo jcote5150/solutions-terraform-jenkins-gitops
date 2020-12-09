@@ -1,4 +1,4 @@
-project_id = "jc-jenkins-gke"
+project_id = "jc-jenkins-on-gke"
 environment = "prod"
 subnet1_region = "us-central1"
 subnet1_zone = "us-central1-a"
