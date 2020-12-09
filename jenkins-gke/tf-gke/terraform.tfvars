@@ -1,7 +1,7 @@
 
 
-project_id = "jc-jenkins-gke"
-tfstate_gcs_backend = "jc-jenkins-gke-tfstate"
+project_id = "jc-jenkins-on-gke"
+tfstate_gcs_backend = "jc-jenkins-on-gke-tfstate"
 region = "us-east4"
 zones = ["us-east4-a"]
 ip_range_pods_name = "ip-range-pods"
