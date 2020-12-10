@@ -42,20 +42,20 @@ controller:
             key: jenkins_tf_ksa
   servicePort: 80
   serviceType: LoadBalancer
-  installPlugins:
-    - kubernetes:1.26.2
-    - workflow-job:2.39
-    - workflow-aggregator:2.6
-    - credentials-binding:1.23
-    - git:4.3.0
-    - blueocean:1.23.2
-    - docker-custom-build-environment:1.7.3
-    - credentials:2.3.11
-    - docker-commons:1.17
-    - docker-workflow:1.23
-    - job-dsl:1.77
-    - configuration-as-code:1.41
-    - jdk-tool:1.4
+#   installPlugins:
+#     - kubernetes:1.26.2
+#     - workflow-job:2.39
+#     - workflow-aggregator:2.6
+#     - credentials-binding:1.23
+#     - git:4.3.0
+#     - blueocean:1.23.2
+#     - docker-custom-build-environment:1.7.3
+#     - credentials:2.3.11
+#     - docker-commons:1.17
+#     - docker-workflow:1.23
+#     - job-dsl:1.77
+#     - configuration-as-code:1.41
+#     - jdk-tool:1.4
   JCasC:
     enabled: true
     configScripts:
